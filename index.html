@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css"
         integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Tarkhina</title>
 </head>
 <body>
@@ -64,7 +64,16 @@
     <main>
     <section class="text-center">
         <div class="container">
-            <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel"> 
+                <ol class="carousel-indicators" id="hero-carousel-indicators">
+                    <li data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#hero-carousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#hero-carousel" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#hero-carousel" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#hero-carousel" data-bs-slide-to="4"></li>
+                    <li data-bs-target="#hero-carousel" data-bs-slide-to="5"></li>
+                </ol>
+
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./imges/Slid-1.jpg" alt="">

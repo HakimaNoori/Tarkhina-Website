@@ -16,20 +16,58 @@
   
   /* Styling the carousel slides */
   .carousel-item {
-    /* Set the background image and gradient */
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.55) 100%), linear-gradient(0deg, rgba(33, 64, 43, 0.50) 0%, rgba(33, 64, 43, 0.50) 100%), url(<path-to-image>);
     background-blend-mode: normal, overlay, normal;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* Set the height for the slides */
     height: 100%;
   }
   
-  /* Optional: You can add custom styles for the content inside each slide */
   .carousel-item img {
-    /* Custom styles for images, if any */
     width: 100%;
     height: auto;
   }
-  
+
+/* Custom style for carousel indicators */
+#hero-carousel-indicators {
+  width: 150px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#hero-carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #a0a0a0b8;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#hero-carousel-indicators li.active {
+  background-color: #0c6f2a;
+}
+
+/* Optional: adjust the size of the carousel indicators for different screen sizes */
+@media (max-width: 576px) {
+  #hero-carousel-indicators {
+    font-size: 12px;
+  }
+  #hero-carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    margin: 0 3px;
+  }
+}
