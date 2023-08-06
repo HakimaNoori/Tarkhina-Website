@@ -1,9 +1,35 @@
-.c-iten {
-    height: 480px;
-}
 
-.c-img {
+/* The container for the carousel */
+#hero-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 35px;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 1440px;
+    height: 336px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Styling the carousel slides */
+  .carousel-item {
+    /* Set the background image and gradient */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.55) 100%), linear-gradient(0deg, rgba(33, 64, 43, 0.50) 0%, rgba(33, 64, 43, 0.50) 100%), url(<path-to-image>);
+    background-blend-mode: normal, overlay, normal;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Set the height for the slides */
     height: 100%;
-    object-fit: cover;
-    filter: brightness(0.6);
-}
+  }
+  
+  /* Optional: You can add custom styles for the content inside each slide */
+  .carousel-item img {
+    /* Custom styles for images, if any */
+    width: 100%;
+    height: auto;
+  }
+  
