@@ -9,7 +9,6 @@
     flex-shrink: 0;
     width: 100%;
     max-width: 1440px;
-    height: 336px;
     position: relative;
     overflow: hidden;
   }
@@ -60,7 +59,11 @@
   background-color: #0c6f2a;
 }
 
-/* Optional: adjust the size of the carousel indicators for different screen sizes */
+
+.menu-content img {
+  width: 200px;
+}
+
 @media (max-width: 576px) {
   #hero-carousel-indicators {
     font-size: 12px;
