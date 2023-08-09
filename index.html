@@ -5,60 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap-grid.rtl.min.css"
-        integrity="sha512-IdCHbOHsCrqqXhmvpjhmTgDIwGrF5NMdQZcC/v0Jdle5sYnhSZ0PJPh57i4NgvtjKr/vflogE6lTs2Fk6aclSA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css"
         integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Tarkhina</title>
 </head>
-<body>
+<body class="rtl">
     <header>
-    <nav class="navbar navbar-expand-md bg-light py-3">
-        <div class="container">
-            <div class="">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link"><img src="./icon/usergreen.png" alt="Icon" class="icon"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link"><img src="./icon/shopping-cart.png" alt="Icon" class="icon"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link d-md-block"><img src="./icon/search-normal.png" alt="Icon" class="icon"></a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-md bg-light py-3">
+            <div class="container">
+                <a href="#" class="navbar-brand"><img src="./icon/Logo.png" alt="Icon" class="icon"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <h4><a href="" class="nav-link"><strong class="text-success">صفحه اصلی</strong></a></h4>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">شعبه<img src="./icon/arrow-down.png" alt="Icon" class="icon"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">منو<img src="./icon/arrow-down.png" alt="Icon" class="icon"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">اعطای نمایندگی</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">درباره ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">تماس باما</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><img src="./icon/usergreen.png" alt="Icon" class="icon"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><img src="./icon/shopping-cart.png" alt="Icon" class="icon"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-md-block"><img src="./icon/search-normal.png" alt="Icon" class="icon"></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-           <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">تماس باما</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">درباره ما</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">اعطای نمایندگی</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link"><img src="./icon/arrow-down.png" alt="Icon" class="icon">منو</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link"><img src="./icon/arrow-down.png" alt="Icon" class="icon">شعبه</a>
-                    </li>
-                    <li class="nav-item">
-                       <h4><a href="" class="nav-link"><strong class="text-success">صفحه اصلی</strong></a></h4>
-                    </li>
-                </ul>
-            </div>
-            <a href="#" class="navbar-brand"><img src="./icon/Logo.png" alt="Icon" class="icon"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-    </nav>
+        </nav>
     </header>
     <!---- main ---->
     <main class="d-flex flex-column justify-content-center align-items-center">
@@ -166,26 +163,21 @@
     </section>
     <section class="mt-5">
         <!---- about --->
-        <div class="container ">
-            <div class="carousel-inner">
-                <div class="carousel-item active c-item">
-                    <img src="./imges/Rectangle 2.png" alt="">
-                </div>
-                <div class="carousel-caption d-none d-md-block top-0 mt-4">
-                    <div class="row">
-                        <div class="container col-lg-6 ">
-                            <h5 class="mt-5 fs-3 text-right ">رستورانت هایی زنجیره ای ترخینه</h5> 
-                            <p class="pull-right">
-                                مهمان نوازی یکی از مهمترین مشخصه های ایرانیان است و باعث افتخار
-                                ماست که پیش از20 سال است خدمت گزار مردم شریف ایران هستیم. ما در 
-                                رستوران های زنجیره ای ترخینه همواره تلاش کردیم که درمحیطی اصیل بر
-                                پایه معماری و طراحی مدرن درکنار طبیعتی دلنواز،غذایی سالم ودرخور 
-                                شان شما عزیزان ارايه دهیم.
-                        </p>
-                        <button><a href=""><img src="./icon/arrow-left.png" alt=""></a>اطلاعات بیشتر</button>
-                        </div>
-                    </div>
-                </div>
+        <div class="container d-flex flex-row about-section">
+            <div class="col-lg-6 d-flex flex-column">
+                <h5 class="text-right">رستورانت هایی زنجیره ای ترخینه</h5> 
+                <p class="text-right">
+                    مهمان نوازی یکی از مهمترین مشخصه های ایرانیان است و باعث افتخار
+                    ماست که پیش از20 سال است خدمت گزار مردم شریف ایران هستیم. ما در 
+                    رستوران های زنجیره ای ترخینه همواره تلاش کردیم که درمحیطی اصیل بر
+                    پایه معماری و طراحی مدرن درکنار طبیعتی دلنواز،غذایی سالم ودرخور 
+                    شان شما عزیزان ارايه دهیم.
+                </p>
+                <button>اطلاعات بیشتر<img src="./icon/arrow-left.png" alt=""></button>
+            </div>
+            <div class="col-lg-6">
+
+            </div>
         </div>
     </section>
     <section>
@@ -235,49 +227,36 @@
     </section>
     </main>
     <footer>
-        <div class="container">
-            <div class="carousel-inner">
-                <div class="carousel-item active c-item">
-                    <img src="./imges/egg-skillet1.jpg" alt="">
-                    <div class="carousel-caption d-none d-md-block top-0 mt-4">
-                        <div class="row">
-                            <div class="col-lg-4 d-flex flex-column">
-                                <h4>شعبه های ترخینه</h4>
-                                <p>شعبه اکباتان</p>
-                                <p>شعبه چالوس</p>
-                                <p>شعبه اقدسیه</p>
-                                <p>شعبه ونک</p>
-                            </div>
-                            <div class="col-lg-4 d-flex flex-column">
-                                <h4>شعبه های ترخینه</h4>
-                                <p>شعبه اکباتان</p>
-                                <p>شعبه چالوس</p>
-                                <p>شعبه اقدسیه</p>
-                                <p>شعبه ونک</p>
-                            </div>
-                            <div class="col-lg-4 d-flex flex-column">
-                                <h4>پیام به ترخینه</h4>
-                                <form action="">
-                                        <input type="text" name="name" id="name" placeholder="نام و نام خانوادگی">
-                                        <input type="text" name="name" id="name" placeholder="شماره تماس">
-                                        <input type="text" name="name" id="name" placeholder="(اختیاری)آدرس ایمیل">
-                                </form>
-                        </div>
-                    </div>
+        <div class="container footer my-5">
+            <div class="row">
+                <div class="col-lg-4 d-flex flex-column">
+                    <h4>شعبه های ترخینه</h4>
+                    <p>شعبه اکباتان</p>
+                    <p>شعبه چالوس</p>
+                    <p>شعبه اقدسیه</p>
+                    <p>شعبه ونک</p>
+                </div>
+                <div class="col-lg-4 d-flex flex-column">
+                    <h4>شعبه های ترخینه</h4>
+                    <p>شعبه اکباتان</p>
+                    <p>شعبه چالوس</p>
+                    <p>شعبه اقدسیه</p>
+                    <p>شعبه ونک</p>
+                </div>
+                <div class="col-lg-4 d-flex flex-column">
+                    <h4>پیام به ترخینه</h4>
+                    <form action="">
+                        <input type="text" name="name" id="name" placeholder="نام و نام خانوادگی">
+                        <input type="text" name="name" id="name" placeholder="شماره تماس">
+                        <input type="text" name="name" id="name" placeholder="(اختیاری)آدرس ایمیل">
+                    </form>
                 </div>
             </div>
         </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous" defer>
-    </script>
-    <script defer>
-    // Initialize the carousel when the page is ready
-    $(document).ready(function() {
-        $('#hero-carousel').carousel();
-    });
     </script>
 </body>
 </html>
