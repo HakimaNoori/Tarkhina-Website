@@ -1,3 +1,6 @@
+.rtl {
+  direction: rtl;
+}
 
 /* The container for the carousel */
 #hero-carousel {
@@ -38,7 +41,7 @@
   margin: 0;
   position: absolute;
   bottom: -6px;
-  left: 50%;
+  right: calc(50% - 150px);
   transform: translateX(-50%);
   background-color: white;
   padding: 5px;
@@ -101,6 +104,19 @@
   border-radius: 4px;
   background: var(--green-primary, #417F56);
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.10), 0px 4px 4px 0px rgba(0, 0, 0, 0.09), 0px 9px 5px 0px rgba(0, 0, 0, 0.05), 0px 16px 6px 0px rgba(0, 0, 0, 0.01), 0px 25px 7px 0px rgba(0, 0, 0, 0.00);
+}
+
+.about-section {
+  height: 320px;
+  color: white;
+  background-image: url(./imges/Rectangle.png);
+}
+
+.footer {
+  color: white;
+  height: 300px;
+  background-image: url(./imges/egg-skillet1.jpg);
+  box-shadow: inset 0 0 0 2000px rgba(128, 85, 65, 0.637);
 }
 
 @media (max-width: 576px) {
