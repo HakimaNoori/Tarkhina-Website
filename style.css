@@ -64,7 +64,7 @@
 
 .menu-content {
   margin: 150px 0 0;
-}
+} 
 
 .content-details {
   width: 270px;
@@ -77,8 +77,8 @@
   align-items: center;
   gap: 17px;
   flex: 1 0 0;
-  border-radius: 8px;
-  border: 1px solid var(--green-primary, #417F56);
+  border-radius: 8px; 
+  border: 1px solid var(--green-primary, #417F56);  
   background: var(--neutral-white, #FFF);
 }
 
