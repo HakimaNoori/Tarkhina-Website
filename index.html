@@ -22,7 +22,7 @@
                 <div class="collapse navbar-collapse d-flex justify-content-center">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <h4><a href="" class="nav-link"><strong class="text-success">صفحه اصلی</strong></a></h4>
+                            <h4><a href="" class="nav-link"><strong class="text-success"><ins>صفحه اصلی</ins></strong></a></h4>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">شعبه<img src="./icon/arrow-down.png" alt="Icon" class="icon"></a>
@@ -175,8 +175,18 @@
                 </p>
                 <button>اطلاعات بیشتر<img src="./icon/arrow-left.png" alt=""></button>
             </div>
-            <div class="col-lg-6">
-                <div></div>
+            <div class="d-flex flex-wrap justify-content-between col-lg-6">
+                <div class="d-flex about-info col-lg-6">
+                    <a href="#">پرسنلی مجرب و حرفه ای <img src="./icon/user.png" alt=""></a>
+                </div>
+                <div class="d-flex about-info col-lg-6">
+                    <a href="#">کیفیت بالای غذاها<img src="./icon/diagram.png" alt=""></a>
+                </div>
+                <div class="d-flex about-info col-lg-6">
+                    <a href="#">محیطی دلنشین و آرام<img src="./icon/home-wifi.png" alt=""></a>
+                </div>
+                <div class="d-flexdf about-info col-lg-6">
+                    <a href="#">منوی متنوع<img src="./icon/menu-board.png" alt=""></a>
             </div>
         </div>
     </section>
@@ -234,6 +244,11 @@
                     <p>شعبه چالوس</p>
                     <p>شعبه اقدسیه</p>
                     <p>شعبه ونک</p>
+                    <div >
+                    <a href="#"><img src="./icon/icons/telegram.png" alt=""></a>
+                    <a href="#"><img src="./icon/icons/insta.png" alt=""></a>
+                    <a href="#"><img src="./icon/icons/tweeter.png" alt=""></a>
+                    </div>
                 </div>
                 <div class="col-lg-4 d-flex flex-column">
                     <h4>شعبه های ترخینه</h4>
@@ -245,13 +260,24 @@
                 <div class="col-lg-4 d-flex flex-column">
                     <h4>پیام به ترخینه</h4>
                     <form action="">
-                        <input type="text" name="name" id="name" placeholder="نام و نام خانوادگی">
-                        <input type="text" name="name" id="name" placeholder="شماره تماس">
-                        <input type="text" name="name" id="name" placeholder="(اختیاری)آدرس ایمیل">
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="نام و نام خانوادگی">
+                                <input type="text" class="form-control" placeholder="شماره تماس">
+                                <input type="text" class="form-control" placeholder="آدرس ایمیل(اختیاری)">
+                            </div>
+                            <div class="col-6">
+                                <textarea name="text" class="form-control" placeholder="پیام شما"></textarea>
+                                ۰/۳۰۰
+                                <div>
+                                    <input type="text" class="form-control justify-content-center" placeholder="ارسال پیام">
+                                </div>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
-        </div>
+        </div> 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

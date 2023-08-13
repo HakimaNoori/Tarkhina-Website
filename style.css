@@ -112,11 +112,17 @@
   background-image: url(./imges/Rectangle.png);
 }
 
+.about-info{
+  width: 300px;
+  height: 150px;
+
+}
+
 .footer {
   color: white;
   height: 300px;
   background-image: url(./imges/egg-skillet1.jpg);
-  box-shadow: inset 0 0 0 2000px rgba(128, 85, 65, 0.637);
+  box-shadow: inset 0 0 0 2000px rgba(27, 27, 27, 0.637);
 }
 
 @media (max-width: 576px) {
