@@ -4,32 +4,32 @@
 
 /* The container for the carousel */
 #hero-carousel {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 35px;
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 1440px;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  /* Styling the carousel slides */
-  .carousel-item {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.55) 100%), linear-gradient(0deg, rgba(33, 64, 43, 0.50) 0%, rgba(33, 64, 43, 0.50) 100%), url(<path-to-image>);
-    background-blend-mode: normal, overlay, normal;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-  }
-  
-  .carousel-item img {
-    width: 100%;
-    height: auto;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 35px;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 1440px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Styling the carousel slides */
+.carousel-item {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.55) 100%), linear-gradient(0deg, rgba(33, 64, 43, 0.50) 0%, rgba(33, 64, 43, 0.50) 100%), url(<path-to-image>);
+  background-blend-mode: normal, overlay, normal;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
 
 /* Custom style for carousel indicators */
 #hero-carousel-indicators {
@@ -64,7 +64,7 @@
 
 .menu-content {
   margin: 150px 0 0;
-} 
+}
 
 .content-details {
   width: 270px;
@@ -77,8 +77,8 @@
   align-items: center;
   gap: 17px;
   flex: 1 0 0;
-  border-radius: 8px; 
-  border: 1px solid var(--green-primary, #417F56);  
+  border-radius: 8px;
+  border: 1px solid var(--green-primary, #417F56);
   background: var(--neutral-white, #FFF);
 }
 
@@ -107,15 +107,60 @@
 }
 
 .about-section {
-  height: 320px;
-  color: white;
-  background-image: url(./imges/Rectangle.png);
+ 
+  color: #FFF;
+  background-size: cover;
+  padding: 40px;
+  background-image: url("../imges/Rectangle.png");
 }
 
-.about-info{
-  width: 300px;
-  height: 150px;
+div.about-part h5 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+}
 
+div.quality-part {
+  margin-top: 40px;
+}
+div.about-part p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 180%;
+}
+
+div.button {
+  text-align: left;
+  margin-top: 20px;
+}
+
+div.button button {
+  background-color: transparent;
+  border: 1px solid #FFF;
+  padding: 7px 30px;
+}
+
+div.button button:hover {
+  background-color: rgba(68, 69, 68, 0.5);
+  border: 1px solid gray;
+}
+
+div.button span {
+  color: #FFF;
+  font-size: 16px;
+}
+
+
+.about-info {
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+div.about-info span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180%;
 }
 
 .footer {
@@ -129,6 +174,7 @@
   #hero-carousel-indicators {
     font-size: 12px;
   }
+
   #hero-carousel-indicators li {
     width: 8px;
     height: 8px;
