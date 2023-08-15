@@ -69,6 +69,7 @@
 .content-details {
   width: 270px;
   height: 180px;
+  margin: 5px;
   padding: 0px 8px;
   position: relative;
   display: flex;
@@ -76,7 +77,6 @@
   justify-content: center;
   align-items: center;
   gap: 17px;
-  flex: 1 0 0;
   border-radius: 8px;
   border: 1px solid var(--green-primary, #417F56);
   background: var(--neutral-white, #FFF);
