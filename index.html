@@ -23,10 +23,18 @@
                             <a href="#" class="nav-link"><strong class="text-success"><ins>صفحه اصلی</ins></strong></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">شعبه<img src="./icon/arrow-down.png" alt="Icon" class="icon"></a>
+                            <a href="#" class="nav-link">شعبه<img src="./icon/arrow-down.png" alt="Icon"
+                                    class="icon"></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">شعبه ونک</a></li>
+                                        <li><a class="dropdown-item" href="#">شعبه اقدسیه</a></li>
+                                        <li><a class="dropdown-item" href="#">شعبه چالوس</a></li>
+                                        <li><a class="dropdown-item" href="#">شعبه اکباتان</a></li>
+                                    </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">منو<img src="./icon/arrow-down.png" alt="Icon" class="icon"></a>
+                            <a href="#" class="nav-link">منو<img src="./icon/arrow-down.png" alt="Icon"
+                                    class="icon"></a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">اعطای نمایندگی</a>
@@ -45,16 +53,18 @@
                             <a href="#" class="nav-link"><img src="./icon/usergreen.png" alt="Icon" class="icon"></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><img src="./icon/shopping-cart.png" alt="Icon" class="icon"></a>
+                            <a href="#" class="nav-link"><img src="./icon/shopping-cart.png" alt="Icon"
+                                    class="icon"></a>
                         </li>
                         <li class="nav-item d-none d-md-block">
-                            <a href="#" class="nav-link"><img src="./icon/search-normal.png" alt="Icon" class="icon"></a>
+                            <a href="#" class="nav-link"><img src="./icon/search-normal.png" alt="Icon"
+                                    class="icon"></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        
+
     </header>
     <!---- main ---->
     <main class="d-flex flex-column justify-content-center align-items-center">
@@ -102,7 +112,7 @@
                             <img src="./imges/Slid-4.jpg" alt="">
 
                             <div class="carousel-caption d-none d-md-block top-0 mt-4">
-                                <h4 class="mt-5 fs-3 text-uppercase">تجربه غذای سالم و گیاهی به سبک ترخینه</h4>
+                                <h4 class="mt-5 fs-3 text-uppercase">فضایی دلنشین و مرفه با ترخینه</h4>
                                 <button class="btn btn-success px-4 py-2 fs-5 mt-5">سفارش آنلاین غذا</button>
                             </div>
                         </div>
@@ -120,7 +130,7 @@
                             <img src="./imges/Slid-6.jpg" alt="">
 
                             <div class="carousel-caption d-none d-md-block top-0 mt-4">
-                                <h4 class="mt-5 fs-3 text-uppercase">تجربه غذای سالم و گیاهی به سبک ترخینه</h4>
+                                <h4 class="mt-5 fs-3 text-uppercase">خدمات عالی و بی نقص را در ترخینه تجربه نمایید!</h4>
                                 <button class="btn btn-success px-4 py-2 fs-5 mt-5">سفارش آنلاین غذا</button>
                             </div>
                         </div>
@@ -136,26 +146,52 @@
                 </div>
             </div>
         </section>
-        <section class="mt-5">
+
+            <!-- end header -->
+            <div class="search container d-block d-lg-none">
+                <div class="row justify-content-between">
+                    <div class="col-2">
+                        <input type="text" placeholder="جستجو">
+                    </div>
+                    <div class="col-2 search-icon">
+                        <img src="./icon/icons/search-normal.png" alt="">
+                    </div>
+                </div>
+            </div>
+
             <!---- Start menu ---->
-            <div class="container-fluid">
+            <div class="name container-fluid g-0">
                 <h3 class="text-center">منوی رستورانت</h3>
-                <div class="row menu-content">
-                    <div class="col-lg-3 col-md-6 content-details">
-                        <img src="./imges/image1.png" alt="">
-                        <a href="">غذای اصلی</a>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="menu-content content-details">
+                            <img src="./imges/image1.png" class="img-fluid">
+                            <a href="">غذای اصلی</a>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 content-details">
-                        <img src="./imges/image.png" alt="">
-                        <a href="">پیش غذا</a>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="menu-content content-details">
+                            <img src="./imges/image.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="menu-btn">
+                            <button class="btn">پیش غذا</button>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 content-details">
-                        <img src="./imges/image2.png" alt="">
-                        <a href="">دسر</a>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="menu-content content-details">
+                            <img src="./imges/image2.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="menu-btn">
+                            <button class="btn ">دسر</button>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 content-details">
-                        <img src="./imges/image3.png" alt="">
-                        <a href="">نوشیدنی</a>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="menu-content content-details">
+                            <img src="./imges/image3.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="menu-btn">
+                            <button class="btn ">نوشیدنی</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -178,7 +214,7 @@
                             <button type="button" class="btn">
                                 <span>اطلاعات بیشتر</span>
                                 <img src="./icon/icons/arrow-left.pngvvf" alt="">
-                         </button>
+                            </button>
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-6 quality-part">
@@ -187,25 +223,25 @@
                                 <div class="about-icon">
                                     <img src="./icon/icons/user.png" alt="">
                                 </div>
-                                <span>پرسنل مجرب و حرفه ای</span>
+                                <span>پرسنلی مجرب و حرفه ای</span>
                             </div>
                             <div class="about-info col-6">
                                 <div class="about-icon">
-                                    <img src="./icon/icons/user.png" alt="">
+                                    <img src="./icon/icons/diagram.png" alt="">
                                 </div>
-                                <span>پرسنل مجرب و حرفه ای</span>
+                                <span>کیفیت بالای غذا ها</span>
                             </div>
                             <div class="about-info col-6">
                                 <div class="about-icon">
-                                    <img src="./icon/icons/user.png" alt="">
+                                    <img src="./icon/icons/home-wifi.png" alt="">
                                 </div>
-                                <span>پرسنل مجرب و حرفه ای</span>
+                                <span>محیطی دلنشین و آرام</span>
                             </div>
                             <div class=" about-info col-6">
                                 <div class="about-icon">
-                                    <img src="./icon/icons/user.png" alt="">
+                                    <img src="./icon/icons/menu-board.png" alt="">
                                 </div>
-                                <span>پرسنل مجرب و حرفه ای</span>
+                                <span>منوی متنوع</span>
                             </div>
                         </div>
                     </div>
